@@ -3,7 +3,7 @@ function obtenerFecha() {
     let fecha = document.querySelector("#fecha"),
     horaMin = document.querySelector("#horamin"),
     segundos = document.querySelector("#segundos");
-    const diaSemana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+    const diaSemana = ["Domingo","Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
     const mesAño = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
     fecha.innerHTML = `${diaSemana[fechaActual.getDay()]} ${fechaActual.getDate()} de ${mesAño[fechaActual.getMonth()]} del ${fechaActual.getFullYear()}`;
     let horaActual = fechaActual.getHours(),
