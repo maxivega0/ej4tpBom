@@ -2,6 +2,17 @@
 section{
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: #fff;
+    max-width: 80%;
+    margin: 0 auto;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+    background-color: black;
 }
 
 .fondo{
